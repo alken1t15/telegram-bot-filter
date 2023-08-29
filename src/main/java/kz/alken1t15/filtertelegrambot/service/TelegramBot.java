@@ -46,10 +46,11 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     public TelegramBot(BotConfig config) {
         this.config = config;
-        banWords.add("pidoras");
-        banWords.add("шлюха");
-        banWords.add("Уебище");
-        banWords.add("Нигеры ебанные");
+        banWords.add("Ужасный");
+        banWords.add("плохой");
+        banWords.add("Не благодарный");
+        banWords.add("Плохо ведешь себя");
+        banWords.add("Позер");
         List<BotCommand> listofCommands = new ArrayList();
         listofCommands.add(new BotCommand("/start", "get a welcome message"));
         listofCommands.add(new BotCommand("/mydata", "get your data stored"));
